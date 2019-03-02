@@ -12,6 +12,26 @@ Da biste dobili vremensku prognozu za određeni grad u JSON-u, potrebno je da zn
 
 https://www.metaweather.com/api/location/615702/
 
+Meta Weather API vraća JSON objekat koji ima svojstvo `consolidated_weather`, koje sadrži niz prognoza za danas i narednih 5 dana. Svaka pojedinačna prognoza ima sledeća bitna svojstva:
+
+```
+{
+  "weather_state_name": "Light Rain",
+  "weather_state_abbr": "lr", // skraćenica za ikonicu
+  "wind_direction_compass": "WSW",
+  "applicable_date": "2019-03-02",
+  "min_temp": 7.8133333333333335,
+  "max_temp": 14.903333333333334,
+  "the_temp": 13.535,
+  "wind_speed": 7.779704121257854,
+  "wind_direction": 257.7286569243198,
+  "air_pressure": 1016.4300000000001,
+  "humidity": 74,
+  "visibility": 11.011940268830031,
+  "predictability": 75
+}
+```
+
 ### ID grada
 
 ID nekog grada možete saznati na dva načina: 
