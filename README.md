@@ -53,3 +53,9 @@ https://www.metaweather.com/static/img/weather/s.svg
 Ako je `weather_state_abbr=lr` onda je src ikonice:
 
 https://www.metaweather.com/static/img/weather/lr.svg
+
+### Najbliži gradovi
+
+Na sledeći način možete dobiti spisak najbližih gradova za koje postoji prognoza, na osnovu geolokacije vašeg uređaja:
+
+https://www.metaweather.com/api/location/search/?lattlong=44.7976196,20.420479999999998
