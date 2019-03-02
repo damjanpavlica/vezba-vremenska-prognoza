@@ -14,7 +14,7 @@ https://www.metaweather.com/api/location/615702/
 
 Meta Weather API vraća JSON objekat koji ima svojstvo `consolidated_weather`, koje sadrži niz prognoza za danas i narednih 5 dana. Svaka pojedinačna prognoza ima sledeća bitna svojstva:
 
-```
+```json
 {
   "weather_state_name": "Light Rain",
   "weather_state_abbr": "lr", // skraćenica za ikonicu
