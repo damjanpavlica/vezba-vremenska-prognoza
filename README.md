@@ -32,6 +32,12 @@ Meta Weather API vraća JSON objekat koji ima svojstvo `consolidated_weather`, k
 }
 ```
 
+Ako GET zahtev vrati grešku "Cross-Origin Request Blocked", onda je potrebno koristiti proksi server za upućivanje GET poziva, na sledeći način:
+
+```
+https://proxy-requests.herokuapp.com/https://www.metaweather.com/api/location/615702/
+```
+
 ### ID grada
 
 ID nekog grada možete saznati na dva načina: 
