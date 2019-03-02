@@ -10,9 +10,7 @@ Kao izvor podataka koristićemo https://www.metaweather.com/api/
 
 Da biste dobili vremensku prognozu za određeni grad u JSON-u, potrebno je da znate jedinstveni identifikacioni broj tog grada (WOEID - Where On Earth ID). Na primer, sledeći GET zahtev vraća podatke za Paris, čiji je id 615702:
 
-```
 https://www.metaweather.com/api/location/615702/
-```
 
 ### ID grada
 
