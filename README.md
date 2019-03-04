@@ -65,3 +65,12 @@ https://www.metaweather.com/api/location/search/?lattlong=44.7976196,20.42047999
 Open Weather Map API trazi autentifikaciju, ali ima podatke za Beograd. Poziva se na sledeci nacin:
 
 http://api.openweathermap.org/data/2.5/forecast?q=Belgrade&units=metric&APPID=14cc828bff4e71286219858975c3e89a
+
+## Radovi
+
+- https://pera-kojot-genije.github.io/weather_app/Weather_App.html
+- https://github.com/mutko/weather-app
+- https://nemanjaburazer.github.io/Weather-API/
+- https://betman87.github.io/weather/
+- https://stefancvetincanin.github.io/weather-app/
+- https://github.com/MilosAksic/Vremenska-prognoza-API
