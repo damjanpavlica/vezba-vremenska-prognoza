@@ -59,3 +59,9 @@ https://www.metaweather.com/static/img/weather/lr.svg
 Na sledeći način možete dobiti spisak najbližih gradova za koje postoji prognoza, na osnovu geolokacije vašeg uređaja:
 
 https://www.metaweather.com/api/location/search/?lattlong=44.7976196,20.420479999999998
+
+### Alternativni API
+
+Open Weather Map API trazi autentifikaciju, ali ima podatke za Beograd. Poziva se na sledeci nacin:
+
+http://api.openweathermap.org/data/2.5/forecast?q=Belgrade&units=metric&APPID=14cc828bff4e71286219858975c3e89a
