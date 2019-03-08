@@ -74,3 +74,4 @@ http://api.openweathermap.org/data/2.5/forecast?q=Belgrade&units=metric&APPID=14
 - https://betman87.github.io/weather/
 - https://stefancvetincanin.github.io/weather-app/
 - https://github.com/MilosAksic/Vremenska-prognoza-API
+- https://ewoksic.github.io/WeatherAPP/
